@@ -1,5 +1,7 @@
 #first {
     background-color: red;
+    /* grid-column: 1 / 3;
+    grid-row: 1/3; */
 }
 
 #second {
@@ -20,6 +22,7 @@
 
 #sixth {
     background-color: cyan;
+    
 }
 
 #seventh {
@@ -42,6 +45,10 @@
     /* grid-template-columns: 30px 40px 60px 3fr 90px; */
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: 50px 50px 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /* grid-gap: 30px 10px; */
+   
     /* grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; */
     /* grid-auto-rows: 100px; */
